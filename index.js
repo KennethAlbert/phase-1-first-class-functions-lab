@@ -30,8 +30,8 @@ function fareTripler(num){
     return Math.sqrt(multiplier)*3
 }
 
-function selectDifferentDrivers(arrayOfDrivers,firstTwo){
-    return firstTwo(arrayOfDrivers);
+function selectDifferentDrivers(arrayOfDrivers,firstTwoOrLastTwo){
+    return firstTwoOrLastTwo(arrayOfDrivers);
 
 }
 
